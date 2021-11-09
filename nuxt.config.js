@@ -1,7 +1,8 @@
-import postcssPresetEnv from 'postcss-preset-env'
-import postcssEasingGradients from 'postcss-easing-gradients'
+// import postcssPresetEnv from 'postcss-preset-env'
+// import postcssEasingGradients from 'postcss-easing-gradients'
 import * as SITE_INFO from './content/site/info.json'
-import { COLOR_MODE_FALLBACK } from './utils/globals.js'
+import colors from 'vuetify/es5/util/colors';
+// import { COLOR_MODE_FALLBACK } from './utils/globals.js'
 
 export default {
   target: 'static',
@@ -32,22 +33,8 @@ export default {
       }
     ],
     link: [
-      {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossorigin: true
-      },
-      {
-        rel: 'preload',
-        as: 'style',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
-        media: 'print',
-        onload: `this.media='all'`
-      }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap' }
     ], // ? Imports the font 'Inter', can be optimized by the netlify plugin 'Subfont' by uncommenting it in `netlify.toml`
     noscript: [
       {
@@ -60,11 +47,38 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#526488' },
+  loading: { color: '#1055B1', height: '4px', duration: 5000 },
+  loadingIndicator: {
+    name: 'circle',
+    color: '#1055B1'
+  },
+
+  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
+  vuetify: {
+    customVariables: ['~/assets/variables.scss'],
+    theme: {
+      dark: false,
+      themes: {
+        light: {
+          primary: '#1B55A3',
+          accent: colors.grey.darken3,
+          secondary: colors.amber.darken3,
+          info: colors.teal.lighten1,
+          warning: colors.amber.base,
+          error: colors.deepOrange.accent4,
+          success: colors.green.accent3,
+          darkgrey: '#8F9BB3',
+          textcolor: '#00253D',
+          blue: '#006BF5'
+        }
+      }
+    }
+  },
+
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/main.pcss'],
+  css: ['~/assets/scss/main.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -72,72 +86,21 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa'],
+  buildModules: ['@nuxtjs/vuetify', '@nuxtjs/svg', '@nuxtjs/pwa'],
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: ['@nuxt/content'],
   /*
    ** Build configuration
    */
-  build: {
-    extractCSS: true,
-    postcss: {
-      plugins: {
-        'postcss-preset-env': postcssPresetEnv({
-          stage: 1,
-          features: {
-            'nesting-rules': false
-          }
-        }),
-        'postcss-easing-gradients': postcssEasingGradients
-      }
-    },
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {}
-  },
+  build: {},
   /*
    ** Custom additions configuration
    */
   // ? The content property: https://content.nuxtjs.org/configuration
   content: {
     dir: 'content'
-  },
-  tailwindcss: {
-    viewer: false, // disabled because it causes `Error: Cannot find module 'tailwindcss/resolveConfig'`, fixed in https://github.com/nuxt-community/tailwindcss-module/pull/303
-    cssPath: '~/assets/css/main.pcss',
-    exposeConfig: false // enables `import { theme } from '~tailwind.config'`
-  },
-  purgeCSS: {
-    mode: 'postcss',
-    // ? Safelisting docs: https://purgecss.com/safelisting.html
-    safelist: {
-      // standard: [],
-      deep: [/dark/, /light/, /btn/, /icon/, /main/],
-      greedy: [
-        /^card/,
-        /image$/,
-        /title$/,
-        /^nuxt-content/,
-        /code/,
-        /pre/,
-        /token/,
-        /^vue-content-placeholders/
-      ]
-    }
-  },
-  colorMode: {
-    classSuffix: '',
-    preference: 'system', // default value of $colorMode.preference
-    fallback: COLOR_MODE_FALLBACK, // fallback value if not system preference found
-    componentName: 'ColorScheme',
-    cookie: {
-      options: {
-        sameSite: 'lax'
-      }
-    }
   },
   pwa: {
     icon: {
