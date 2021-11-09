@@ -15,22 +15,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@fontsource/plus-jakarta-sans": "^4.5.0",
     "@nuxt/content": "^1.14.0",
     "nuxt": "^2.15.8"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^2.1.1",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/svg": "^0.1.12",
-    "@nuxtjs/tailwindcss": "^4.2.1",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "netlify-cli": "^6.7.0",
-    "nuxt-purgecss": "^1.0.0",
-    "postcss": "^8.3.6",
-    "postcss-easing-gradients": "^3.0.1",
-    "postcss-preset-env": "^6.7.0",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "netlify-cli": "^6.14.18",
     "prettier": "^2.3.2",
     "vue-content-placeholders": "^0.2.1"
   }
