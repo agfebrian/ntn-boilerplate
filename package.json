@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/svg": "^0.1.12",
+    "@nuxtjs/svg": "^0.3.0",
     "@nuxtjs/vuetify": "^1.12.1",
     "netlify-cli": "^6.7.0",
     "prettier": "^2.3.2",
