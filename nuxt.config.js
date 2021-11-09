@@ -100,7 +100,8 @@ export default {
    */
   // ? The content property: https://content.nuxtjs.org/configuration
   content: {
-    dir: 'content'
+    dir: 'content',
+    liveEdit: false,
   },
   pwa: {
     icon: {
