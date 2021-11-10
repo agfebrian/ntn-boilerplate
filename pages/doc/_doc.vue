@@ -29,3 +29,10 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+article p {
+  line-height: 1.8;
+  text-align: justify;
+}
+</style>

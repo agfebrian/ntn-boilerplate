@@ -15,11 +15,11 @@
       <app-bar @showNav="showNav"></app-bar>
       <v-main>
         <v-container class="pa-0">
-          <v-row>
-            <v-col class="pt-16" cols="12" md="2" lg="2" xl="2">
+          <v-row class="d-flex justify-center">
+            <v-col class="py-16" cols="12" md="2" lg="2" xl="2">
               <external-link></external-link>
             </v-col>
-            <v-col class="pt-16 pr-16 pb-16" cols="12" md="10" lg="10" xl="10">
+            <v-col class="pa-16" cols="12" md="10" lg="10" xl="10">
               <Nuxt />
             </v-col>
           </v-row>

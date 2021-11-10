@@ -51,7 +51,8 @@
                 </p>
                 <p
                   class="mb-0 mr-6 ml-9 font-weight-bold pointer darkgrey--text"
-                  :class="$route.path == '/*' ? 'textcolor--text' : 'darkgrey--text'"
+                  :class="$route.path == '/' ? 'textcolor--text' : 'darkgrey--text'"
+                  @click="$router.push('/')"
                 >
                   Help
                 </p>
