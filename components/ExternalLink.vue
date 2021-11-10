@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 d-flex flex-column fixed">
+  <div class="mt-4 d-flex flex-column">
     <nuxt-link v-for="(item, index) in contentTitle" :key="index" :to="item.path">
       <p
         class="my-1 font-weight-bold darkgrey--text pointer"
