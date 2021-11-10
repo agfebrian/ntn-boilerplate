@@ -77,7 +77,9 @@
             </div>
             <div style="height: 100%" class="d-flex flex-column align-center justify-space-between">
               <p class="text-center" style="line-height: 2">{{ item.content }}</p>
-              <p class="primary--text font-weight-bold">Learn more <v-icon color="primary">mdi-menu-right</v-icon></p>
+              <p class="primary--text font-weight-bold pointer" @click="$router.push(item.link)">
+                Learn more <v-icon color="primary">mdi-menu-right</v-icon>
+              </p>
             </div>
           </v-card>
         </v-col>
@@ -132,25 +134,25 @@ export default {
           icon: require('@/assets/img/icon/rocket-blue2.svg'),
           title: 'Getting Started',
           content: 'Start your journey with InterconnectDATA',
-          link: '',
+          link: '/doc/getting-started',
         },
         {
           icon: require('@/assets/img/icon/lamp-light.svg'),
           title: 'Knowledge Base',
           content: 'Learn how to use InterconnectDATA platform',
-          link: '',
+          link: '/doc/knowledge-base',
         },
         {
           icon: require('@/assets/img/icon/package.svg'),
           title: 'FAQ',
           content: 'Get answers to your questions here',
-          link: '',
+          link: '/doc/frequently-asked-question',
         },
         {
           icon: require('@/assets/img/icon/integration.svg'),
           title: 'API Integrations',
           content: 'Integrate InterconnectDATA into your web and mobile applications with REST API',
-          link: '',
+          link: '/doc/api-integration',
         },
       ],
     }
