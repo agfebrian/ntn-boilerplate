@@ -19,7 +19,7 @@
             <v-col class="py-16" cols="12" md="2" lg="2" xl="2">
               <external-link></external-link>
             </v-col>
-            <v-col class="pa-16" cols="12" md="10" lg="10" xl="10">
+            <v-col class="pa-16" cols="12" md="8" lg="8" xl="8">
               <Nuxt />
             </v-col>
           </v-row>

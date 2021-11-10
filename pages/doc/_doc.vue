@@ -38,4 +38,7 @@ article p {
   line-height: 1.8;
   text-align: justify;
 }
+article img {
+  width: 100%;
+}
 </style>
