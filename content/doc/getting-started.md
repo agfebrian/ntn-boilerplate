@@ -20,7 +20,7 @@ InterconnectDATA offers a free membership plan with limited functionality. But w
 
 To use the InterconnectDATA platform, you can access the following link <http://apps.interconnectdata.com/> and to help you get reliable authentic data wherever you are, interconnectDATA for mobile is available on Android and iOS apps. Download our apps on your device here
 
-### ![](https://lh6.googleusercontent.com/8RJBWzd7iYvgbvcvQdExmfrUOvtda5wxSGQgNsZfurQu9AXmuUNI-uqD95IuKf2QRtnVnf6PD1_oJd6DdGaPkduLn80exk0PmJjlpdmUJa-uYlRbWQlFfPDEKTKjIR7PFFMng9Fk)How to Create an Account in InterconnectDATA?
+### How to Create an Account in InterconnectDATA?
 
 There are two ways that can be done to create an account in interconnectDATA, there are direct registration and registration with google. If you have an active Google account, you can register with Google by click on  “Register With Google” button. 
 
