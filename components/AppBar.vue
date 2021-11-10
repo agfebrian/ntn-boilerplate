@@ -1,20 +1,13 @@
 <template>
   <div>
-    <v-app-bar
-      app
-      color="white"
-      flat
-      style="border-bottom: 1px solid #d2d2d2 !important"
-      id="top"
-      height="80px"
-    >
+    <v-app-bar app color="white" flat style="border-bottom: 1px solid #d2d2d2 !important" id="top" height="80px">
       <v-container class="px-8" fluid>
         <div class="d-flex">
           <div class="logo d-flex align-center pointer" id="logo">
             <v-img
               max-width="120"
               :src="require('@/assets/img/logo-blue.svg')"
-              @click="$router.push('/')"
+              @click="goToLink('https://lp.interconnectdata.com/')"
             ></v-img>
           </div>
           <v-spacer></v-spacer>
@@ -33,52 +26,32 @@
             <div class="hidden-sm-and-down">
               <div class="flex-row d-flex align-center">
                 <p
-                  class="mb-0 font-weight-bold pointer"
-                  :class="
-                    $route.path == '/' ? 'textcolor--text' : 'darkgrey--text'
-                  "
-                  @click="$router.push('/')"
+                  class="mb-0 font-weight-bold darkgrey--text pointer"
+                  @click="goToLink('https://lp.interconnectdata.com/')"
                 >
                   Home
                 </p>
                 <p
-                  class="mb-0 ml-9 font-weight-bold pointer"
-                  :class="
-                    $route.path == '/product'
-                      ? 'textcolor--text'
-                      : 'darkgrey--text'
-                  "
-                  @click="$router.push('/product')"
+                  class="mb-0 ml-9 font-weight-bold darkgrey--text pointer"
+                  @click="goToLink('https://lp.interconnectdata.com/product')"
                 >
                   Product
                 </p>
                 <p
-                  class="mb-0 ml-9 font-weight-bold pointer"
-                  :class="
-                    $route.path == '/about'
-                      ? 'textcolor--text'
-                      : 'darkgrey--text'
-                  "
-                  @click="$router.push('/about')"
+                  class="mb-0 ml-9 font-weight-bold darkgrey--text pointer"
+                  @click="goToLink('https://lp.interconnectdata.com/about')"
                 >
                   About Us
                 </p>
                 <p
                   class="mb-0 ml-9 font-weight-bold pointer darkgrey--text"
-                  @click="
-                    goToLink('https://devapps.interconnectdata.com/subscribe')
-                  "
+                  @click="goToLink('https://devapps.interconnectdata.com/subscribe')"
                 >
                   Subscribe
                 </p>
                 <p
                   class="mb-0 mr-6 ml-9 font-weight-bold pointer darkgrey--text"
-                  :class="
-                    $route.path == '/faq'
-                      ? 'textcolor--text'
-                      : 'darkgrey--text'
-                  "
-                  @click="$router.push('/faq')"
+                  :class="$route.path == '/*' ? 'textcolor--text' : 'darkgrey--text'"
                 >
                   Help
                 </p>
@@ -86,16 +59,9 @@
                   color="primary"
                   dark
                   class="ml-12"
-                  @click="
-                    goToLink('https://devapps.interconnectdata.com/register')
-                  "
+                  @click="goToLink('https://devapps.interconnectdata.com/register')"
                 >
-                  <v-img
-                    :src="require('@/assets/img/icon/rocket.svg')"
-                    contain
-                    class="mr-2"
-                    max-width="21"
-                  ></v-img>
+                  <v-img :src="require('@/assets/img/icon/rocket.svg')" contain class="mr-2" max-width="21"></v-img>
                   Try it free</v-btn
                 >
                 <v-btn
@@ -104,9 +70,7 @@
                   class="ml-3"
                   style="background-color: #f6f9ff"
                   dark
-                  @click="
-                    goToLink('https://devapps.interconnectdata.com/login')
-                  "
+                  @click="goToLink('https://devapps.interconnectdata.com/login')"
                 >
                   <span class="font-weight-bold">Login</span></v-btn
                 >
@@ -122,7 +86,7 @@
 <script>
 export default {
   data() {
-    return {};
+    return {}
   },
   computed: {},
   watch: {},
@@ -131,10 +95,10 @@ export default {
       window.location = link
     },
     showNav() {
-      this.$emit("showNav", true);
+      this.$emit('showNav', true)
     },
   },
-};
+}
 </script>
 
 <style lang="scss" scoped></style>

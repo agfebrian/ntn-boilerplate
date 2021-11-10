@@ -18,13 +18,13 @@
         :src="require('@/assets/img/hero-faq1.png')"
       >
         <!-- show on medium -->
-        <h2 style="font-size: 3rem" class="mt-16 text-center white--text hidden-sm-and-down">InterconnectDATA Docs</h2>
+        <h2 style="font-size: 3rem" class="text-center white--text hidden-sm-and-down">InterconnectDATA Docs</h2>
         <p class="mb-0 text-subtitle-cust-1 text-center white--text hidden-sm-and-down">
           Learn More About InterconnectDATA and Get Answers to All Your Questions
         </p>
         <!-- <p class="text-subtitle-cust-1 text-center white--text hidden-sm-and-down">Data with Intermediate</p> -->
         <v-text-field
-          class="cust__input white--text rounded-lg hidden-sm-and-down"
+          class="mx-auto cust__input white--text rounded-lg hidden-sm-and-down"
           placeholder="Search"
           hide-details
           outlined
@@ -43,7 +43,7 @@
         <!-- <p class="text-subtitle-cust-2 text-center white--text hidden-md-and-up">Data with Intermediate</p> -->
         <v-text-field
           style="width: 80%"
-          class="cust__input white--text rounded-lg hidden-md-and-up"
+          class="mx-auto white--text rounded-lg hidden-md-and-up"
           placeholder="Search"
           hide-details
           outlined
@@ -159,7 +159,7 @@ export default {
 </script>
 
 <style scoped>
-.cust__input {
+.mx-auto {
   width: 30%;
   margin: 50px auto;
   background: rgba(255, 255, 255, 0.3);
@@ -167,7 +167,7 @@ export default {
   backdrop-filter: blur(24px);
 }
 
-.cust__input .v-input__slot::before {
+.mx-auto .v-input__slot::before {
   border-style: none !important;
 }
 </style>

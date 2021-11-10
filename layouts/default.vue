@@ -16,14 +16,10 @@
       <v-main>
         <v-container class="pa-0">
           <v-row>
-            <v-col class="d-flex flex-column" cols="12" md="3" lg="3" xl="3">
-              <div v-if="posts">
-                <nuxt-link v-for="(item, index) in posts" :key="index" :to="item.title">{{ item.title }}</nuxt-link>
-              </div>
-              <!-- <nuxt-link to="#">Link 2</nuxt-link>
-              <nuxt-link to="#">Link 3</nuxt-link> -->
+            <v-col class="pt-16" cols="12" md="2" lg="2" xl="2">
+              <external-link></external-link>
             </v-col>
-            <v-col cols="12" md="7" lg="7" xl="7">
+            <v-col class="pt-16 pr-16 pb-16" cols="12" md="10" lg="10" xl="10">
               <Nuxt />
             </v-col>
           </v-row>
@@ -39,17 +35,6 @@
 // import '@fontsource/plus-jakarta-sans'
 
 export default {
-  async asyncData({ $content, error }) {
-    let posts
-    try {
-      posts = await $content('doc').fetch()
-    } catch (e) {
-      error({ message: 'Doc not found' })
-    }
-    return { posts }
-    // console.log(posts)
-    // this.tableOfContent = posts
-  },
   data() {
     return {
       navigationMobile: false,
