@@ -6,21 +6,21 @@ title: Getting Started
 
 Start your journey with InterconnectDATA
 
-## Introduction to InterconnectDATA
+### Introduction to InterconnectDATA
 
 InterconnectData is a business information profiling platform that provides publicly updated companies and private company information that can be viewed in real time, empowering professionals to seize opportunities and make strategic decisions from valid information. InterconnectData combines enterprise data from thousands of sources, creating connections and business opportunities for many industries.
 
 Interconnect Data can be used to help entities find and connect with prospect partners for create right business decisions by our recommendation, this platform also has several features that support entities to explore innovative companies and people behind them, convince stakeholders to invest in the right company, helps professionals doing market research for their business, and helps provide a valid data. Interconnect Data Platform can be used by Companies, Consultants, Investors, Business Development, Job Seekers, Entrepreneurs, Marketers, and Others.
 
-## Product Pricing
+### Product Pricing
 
 InterconnectDATA offers a free membership plan with limited functionality. But we also have other product options to suit your business needs. You can learn more about all of our products [here!](https://lp.interconnectdata.com/product)
 
-## Where is InterconnectDATA available?
+### Where is InterconnectDATA available?
 
 To use the InterconnectDATA platform, you can access the following link <http://apps.interconnectdata.com/> and to help you get reliable authentic data wherever you are, interconnectDATA for mobile is available on Android and iOS apps. Download our apps on your device here
 
-## ![](https://lh6.googleusercontent.com/8RJBWzd7iYvgbvcvQdExmfrUOvtda5wxSGQgNsZfurQu9AXmuUNI-uqD95IuKf2QRtnVnf6PD1_oJd6DdGaPkduLn80exk0PmJjlpdmUJa-uYlRbWQlFfPDEKTKjIR7PFFMng9Fk)How to Create an Account in InterconnectDATA?
+### ![](https://lh6.googleusercontent.com/8RJBWzd7iYvgbvcvQdExmfrUOvtda5wxSGQgNsZfurQu9AXmuUNI-uqD95IuKf2QRtnVnf6PD1_oJd6DdGaPkduLn80exk0PmJjlpdmUJa-uYlRbWQlFfPDEKTKjIR7PFFMng9Fk)How to Create an Account in InterconnectDATA?
 
 There are two ways that can be done to create an account in interconnectDATA, there are direct registration and registration with google. If you have an active Google account, you can register with Google by click on  “Register With Google” button. 
 
