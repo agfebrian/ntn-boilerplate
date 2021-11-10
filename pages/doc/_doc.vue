@@ -27,6 +27,9 @@ export default {
       return date.toLocaleDateString(process.env.lang) || ''
     },
   },
+  mounted() {
+    window.scroll(0, 0)
+  },
 }
 </script>
 

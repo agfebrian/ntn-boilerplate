@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  middleware: 'defaultContent',
   async asyncData({ $content, error }) {
     let posts
     try {
