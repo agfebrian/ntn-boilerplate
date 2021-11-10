@@ -19,7 +19,7 @@
       >
         <!-- show on medium -->
         <h2 style="font-size: 3rem" class="text-center white--text hidden-sm-and-down">InterconnectDATA Docs</h2>
-        <p class="mb-0 text-subtitle-cust-1 text-center white--text hidden-sm-and-down">
+        <p class="mb-10 text-subtitle-cust-1 text-center white--text hidden-sm-and-down">
           Learn More About InterconnectDATA and Get Answers to All Your Questions
         </p>
         <!-- <p class="text-subtitle-cust-1 text-center white--text hidden-sm-and-down">Data with Intermediate</p> -->
