@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 d-flex flex-column">
+  <div style="height: 100vh" class="mt-4 d-md-flex flex-column sticky">
     <nuxt-link v-for="(item, index) in contentTitle" :key="index" :to="item.path">
       <p
         class="my-1 font-weight-bold darkgrey--text pointer"
@@ -35,8 +35,10 @@ export default {
 </script>
 
 <style scoped>
-.fixed {
-  position: fixed;
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
 }
 a {
   text-decoration: none;

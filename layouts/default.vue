@@ -16,7 +16,7 @@
       <v-main>
         <v-container class="pa-0">
           <v-row class="d-flex justify-center">
-            <v-col class="py-16" cols="12" md="2" lg="2" xl="2">
+            <v-col class="hidden-sm-and-down py-16" cols="12" md="2" lg="2" xl="2">
               <external-link></external-link>
             </v-col>
             <v-col class="pa-16" cols="12" md="8" lg="8" xl="8">
