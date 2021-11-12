@@ -67,68 +67,69 @@ As an iC-BASE user, you can also create a connection list containing the compani
 
 There are many ways you can do to understand your users, by using the iC-BASE package you can get detailed information from the 25 companies you need, create 10 connection lists, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-3. IC-LITE
-4. How can I explore and connect using the iC-LITE package?
+### IC-LITE
 
-With the iC-LITE package you can explore and connect according to your business needs. However, there are limitations that you have for each organization, so when you are an iC-LITE user, you can only access 50 detailed company information.
+#### 1. How can I explore and connect using the iC-LITE package?
 
-2. Can I get a data summary using the iC-LITE package?
+With the iC-LITE package you can explore and connect according to your business needs. However, there are limitations that you have for each organization, so when you are an iC-LITE user, **you can only access 50 detailed company information**.
 
-Unfortunately, the data summary cannot be viewed if you are an iC-LITE user. To get summary data from various industry sectors, you have to upgrade to the iC-PREMIUM package
+#### 2. Can I get a data summary using the iC-LITE package?
 
-3. How to get event information using the iC-LITE package?
+InterconnectData platform provides a summary of data that will help you to analyze information for your business development for now and the future. This summary will also display data visualization such as data snapshot for a whole month or a whole year, graph of industry growth, and others. But unfortunately, **the data summary cannot be viewed if you are an iC-LITE user.** To get summary data from various industry sectors, you have to upgrade to the iC-PREMIUM package.
 
-For iC-LITE users, they can see all the details of upcoming events and to get more data to help increase your awareness about the target market, interconnectDATA also provides the latest news based on your connection and market interest.
+#### 3. How to get event information using the iC-LITE package?
 
-4. Can I create a connection list using the iC-LITE package?
+For iC-LITE users, they can see all the details of **upcoming events** and to get more data to help increase your awareness about the target market, interconnectDATA also provides the **latest news** based on your connection and market interest.
 
-As an iC-LITE user, you can also create a connection list containing the companies you are interested in, but as iC-LITE users you can only store 10 company data on your connection list.
+#### 4. Can I create a connection list using the iC-LITE package?
 
-5. How to learn more about my customer using the iC-LITE package?
+As an iC-LITE user, you can also create a connection list containing the companies you are interested in, but as iC-LITE users **you can only store 10 company data on your connection list.**
+
+#### 5. How to learn more about my customer using the iC-LITE package?
 
 There are many ways you can do to understand your users, by using the iC-LITE package you can get detailed information from the 50 companies you need, get 50 companies suggestions, create 50 connection lists, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-6. IC-PRO
-7. How can I explore and connect using the iC-PRO package?
+### IC-PRO
 
-With the iC-PRO package you can explore and connect according to your business needs. When you use iC-PRO, you can get unlimited company information with their financials report and also get 40 contacts from the company.
+#### 1. How can I explore and connect using the iC-PRO package?
 
-2. Can I get a data summary using the iC-PRO package?
+With the iC-PRO package you can explore and connect according to your business needs. When you use iC-PRO, **you can get unlimited company information with their financials report** and also **get 40 contacts from the company.**
 
-Unfortunately, the data summary cannot be viewed if you are an iC-PRO user. To get summary data from various industry sectors, you have to upgrade to the iC-PREMIUM package
+#### 2. Can I get a data summary using the iC-PRO package?
 
-3. How to get event information using the iC-PRO package?
+InterconnectData platform provides a summary of data that will help you to analyze information for your business development for now and the future. This summary will also display data visualization such as data snapshot for a whole month or a whole year, graph of industry growth, and others. But unfortunately, **the data summary cannot be viewed if you are an iC-PRO user.** To get summary data from various industry sectors, you have to upgrade to the iC-PREMIUM package
+
+#### 3. How to get event information using the iC-PRO package?
 
 For iC-PRO users, they can see all the details of upcoming events and to get more data to help increase your awareness about the target market, interconnectDATA also provides the latest news based on your connection and market interest.
 
-4. Can I create a connection list using the iC-PRO package?
+#### 4. Can I create a connection list using the iC-PRO package?
 
-As an iC-PRO user, you can also create a connection list containing the companies you are interested in, but as iC-PRO users you can only store 50 company data on your connection list.
+As an iC-PRO user, you can also create a connection list containing the companies you are interested in, but as iC-PRO users **you can only store 50 company data on your connection list.**
 
-5. How to learn more about my customer using the iC-PRO package?
+#### 5. How to learn more about my customer using the iC-PRO package?
 
 There are many ways you can do to understand your users, by using the iC-PRO package you can get detailed information from the unlimited companies you need, get unlimited companies suggestions, tracking unlimited companies, create 50 connection lists, get 40 contact person /month, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-6. IC-PREMIUM
-7. How can I explore and connect using the iC-PREMIUM package?
+### IC-PREMIUM
 
-With the iC-PREMIUM package you can explore and connect according to your business needs. When you use iC-PREMIUM, you can get unlimited company information with their financials report and also get 80 contacts /month  from the company.
+#### 1. How can I explore and connect using the iC-PREMIUM package?
 
-2. Can I get a data summary using the iC-PREMIUM package?
+With the iC-PREMIUM package you can explore and connect according to your business needs. When you use iC-PREMIUM, **you can get unlimited company information with their financials report** and also **get 80 contacts /month from the company.**
 
-As an iC-PREMIUM user, you can see summary data based on business sectors. You can also view a snapshot of the year and a snapshot of the month. You will also see a graph of industry growth based on the sector that you choose and iC-PREMIUM user can also view the entire list of companies based on sector that you choose
+#### 2. Can I get a data summary using the iC-PREMIUM package?
 
-3. How to get event information using the iC-PREMIUM package?
+InterconnectData platform provides a summary of data that will help you to analyze information for your business development for now and the future. As an iC-PREMIUM user, **you can see summary data based on business sectors.** You can also view a snapshot of the year and a snapshot of the month. You will also see a graph of industry growth based on the sector that you choose and iC-PREMIUM user can also view the entire list of companies based on sector that you choose
 
-For iC-PREMIUM users, they can see all the details of upcoming events and to get more data to help increase your awareness about the target market, interconnectDATA also provides the latest news based on your connection and market interest.
+#### 3. How to get event information using the iC-PREMIUM package?
 
-4. Can I create a connection list using the iC-PREMIUM package?
+As iC-PREMIUM users, you can see all the details of **upcoming events** and to get more data to help increase your awareness about the target market, interconnectDATA also provides the **latest news** based on your connection and market interest.
 
-As an iC-PREMIUM user, you can also list the connections of the organizations based on your interest, but the amount of data on these connections is limited to a maximum of 50 data.
+#### 4. Can I create a connection list using the iC-PREMIUM package?
 
-As an iC-FREE user, you can also create a connection list containing the companies you are interested in and as iC-PREMIUM users you can save unlimited company data on your connection list.
+As an iC-PREMIUM user, you can get an unlimited connection list based on your interest.
 
-5. How to learn more about my customer using the iC-PREMIUM package?
+#### 5. How to learn more about my customer using the iC-PREMIUM package?
 
 There are many ways you can do to understand your users, by using the iC-PREMIUM package you can get detailed information from the unlimited companies you need, get unlimited companies suggestions, tracking unlimited companies, create unlimited connection lists, get 80 contact person /month, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
