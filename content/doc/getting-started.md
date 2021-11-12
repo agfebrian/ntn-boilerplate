@@ -7,17 +7,17 @@ description: Start your journey with InterconnectDATA
 
 Start your journey with InterconnectDATA
 
-## Introduction to InterconnectDATA
+### Introduction to InterconnectDATA
 
 InterconnectData is a business information profiling platform that provides publicly updated companies and private company information that can be viewed in real time, empowering professionals to seize opportunities and make strategic decisions from valid information. InterconnectData combines enterprise data from thousands of sources, creating connections and business opportunities for many industries.
 
 Interconnect Data can be used to help entities find and connect with prospect partners for create right business decisions by our recommendation, this platform also has several features that support entities to explore innovative companies and people behind them, convince stakeholders to invest in the right company, helps professionals doing market research for their business, and helps provide a valid data. Interconnect Data Platform can be used by Companies, Consultants, Investors, Business Development, Job Seekers, Entrepreneurs, Marketers, and Others.
 
-## Product Pricing
+### Product Pricing
 
 InterconnectDATA offers a free membership plan with limited functionality. But we also have other product options to suit your business needs. You can learn more about all of our products [here!](https://lp.interconnectdata.com/product)
 
-## Where is InterconnectDATA Available?
+### Where is InterconnectDATA Available?
 
 To use the InterconnectDATA platform, you can access the following link [http://apps.interconnectdata.com/](https://devapps.interconnectdata.com/login) and to help you get reliable authentic data wherever you are, InterconnectDATA for mobile is available on Android and iOS apps. 
 
@@ -33,8 +33,6 @@ There are two ways that can be done to create an account in InterconnectDATA, th
 
 ![](/img/regis.png)
 
-
-
 <!--EndFragment-->
 
 If you don't want to register with a Google account, you can register directly using your active email. Follow the steps below to register.
@@ -44,10 +42,9 @@ If you don't want to register with a Google account, you can register directly u
 ![](https://lh5.googleusercontent.com/2VjJ7IP5SJ_D8sb3HAbbX2fPTr2wgc1c7gQ57yoWIy1MU5Ep89YEU9VlEjOwNY8-n7WtC-uGdRt8b4tbpJXZi6lXhrOVUB0RpEQTmbQBeLwdvUQ9b9IyBffd9z27ZgBi_QPxzVe2)
 
 2. Once you are on the login page, click Register Now
-
 3. Fill out register form with your data and then click on “Register” button
 
-![](https://lh4.googleusercontent.com/nNDPoPmneF5U_4r9PGme59YN0ylOIujpVsKoKTGMz7mAIXL2aG--7fO8imKim2_8bHNwk30EoaNsqE8vEN_O_OvY5EnVHehSj6layqSHxYMrFXdt2MT2XX9l608TkFqzceVtfpwW)
+![](/img/regis1.png)
 
 4. After you fill out the registration form, InterconnectDATA will ask you to complete your personalization. Please follow the four steps correctly, so you can get your most appropriate personalization
 
