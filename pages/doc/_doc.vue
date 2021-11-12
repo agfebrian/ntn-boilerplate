@@ -4,7 +4,7 @@
       <article>
         <h1 class="">{{ post.title }}</h1>
         <!-- <p class="mt-1 mb-4 text-primary-600 dark:text-primary-400">{{ post.description }}</p> -->
-        <nuxt-content :document="post" />
+        <nuxt-content ref="nuxtContent" :document="post" />
       </article>
     </section>
   </main>
@@ -21,6 +21,15 @@ export default {
     }
     return { post }
   },
+  data() {
+    return {
+      observer: null,
+      observerOptions: {
+        root: this.$refs.nuxtContent,
+        threshold: 0,
+      },
+    }
+  },
   methods: {
     formatDate(dateString) {
       const date = new Date(dateString)
@@ -29,6 +38,23 @@ export default {
   },
   mounted() {
     window.scroll(0, 0)
+
+    this.observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const id = entry.target.getAttribute('id')
+        if (entry.isIntersecting) {
+          this.$store.commit('SET_CURRENTLY_ACTIVE_TOC', id)
+        }
+      })
+    }, this.observerOptions)
+
+    // Track all sections that have an `id` applied
+    document.querySelectorAll('.nuxt-content h2[id], .nuxt-content h3[id]').forEach((section) => {
+      this.observer.observe(section)
+    })
+  },
+  beforeDestroy() {
+    this.observer.disconnect()
   },
 }
 </script>
