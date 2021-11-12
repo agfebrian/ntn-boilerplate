@@ -14,11 +14,13 @@
     <v-card flat>
       <v-img
         style="border-radius: 0px !important; height: 80vh"
-        class="d-flex align-center justify-center"
+        class="d-flex justify-center"
         :src="require('@/assets/img/hero-faq1.png')"
       >
         <!-- show on medium -->
-        <h2 style="font-size: 3rem" class="text-center white--text hidden-sm-and-down">InterconnectDATA Docs</h2>
+        <h2 style="font-size: 3rem; margin-top: 150px" class="text-center white--text hidden-sm-and-down">
+          InterconnectDATA Docs
+        </h2>
         <p class="mb-10 text-subtitle-cust-1 text-center white--text hidden-sm-and-down">
           Learn More About InterconnectDATA and Get Answers to All Your Questions
         </p>
@@ -38,7 +40,7 @@
         </v-text-field>
 
         <!-- show on small -->
-        <h2 class="mt-6 text-center white--text hidden-md-and-up">InterconnectDATA</h2>
+        <h2 class="mt-16 text-center white--text hidden-md-and-up">InterconnectDATA</h2>
         <h2 class="text-center white--text hidden-md-and-up">Docs</h2>
         <p class="mt-4 mb-0 text-subtitle-cust-2 text-center white--text hidden-md-and-up">
           Learn More About InterconnectDATA and Get Answers to All Your Questions
@@ -183,6 +185,7 @@ export default {
   watch: {
     async query(query) {
       if (!query) {
+        this.query = ''
         this.items = []
         return
       }
@@ -207,8 +210,7 @@ export default {
 .box-search {
   position: absolute;
   z-index: 10;
-  top: 350px;
-  /* left: 670px; */
+  top: 370px;
   width: 30%;
   max-height: 400px;
   overflow-y: auto;
@@ -223,7 +225,6 @@ export default {
     padding: 0px 20px;
   }
   .box-search {
-    top: 400px;
     width: 90%;
   }
 }
