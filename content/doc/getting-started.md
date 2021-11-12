@@ -23,11 +23,11 @@ To use the InterconnectDATA platform, you can access the following link [http://
 
 <!--StartFragment-->
 
-![](/img/111.png)
+![](/img/aaaa.png)
 
 <!--EndFragment-->
 
-## How to Create an Account in InterconnectDATA?
+### How to Create an Account in InterconnectDATA?
 
 There are two ways that can be done to create an account in InterconnectDATA, there are **direct registration** and **registration with google**. If you have an active Google account, you can register with Google by click on  “Register With Google” button. 
 
@@ -47,6 +47,8 @@ If you don't want to register with a Google account, you can register directly u
 ![](/img/regis1.png)
 
 4. After you fill out the registration form, InterconnectDATA will ask you to complete your personalization. Please follow the four steps correctly, so you can get your most appropriate personalization
+
+
 
 STEP 1 : Choose your main purpose, you are only allowed to choose one purpose
 
