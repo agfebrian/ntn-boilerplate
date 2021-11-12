@@ -24,16 +24,19 @@
         </p>
         <!-- <p class="text-subtitle-cust-1 text-center white--text hidden-sm-and-down">Data with Intermediate</p> -->
         <v-text-field
+          v-model="query"
           class="mx-auto cust__input white--text rounded-lg hidden-sm-and-down"
           placeholder="Search"
           hide-details
+          clearable
           outlined
           flat
         >
-          <template v-slot:append>
-            <v-img :src="require('@/assets/img/icon/search.svg')"></v-img>
+          <template v-slot:prepend-inner>
+            <v-img class="mr-2" :src="require('@/assets/img/icon/search.svg')"></v-img>
           </template>
         </v-text-field>
+
         <!-- show on small -->
         <h2 class="mt-6 text-center white--text hidden-md-and-up">InterconnectDATA</h2>
         <h2 class="text-center white--text hidden-md-and-up">Docs</h2>
@@ -42,15 +45,17 @@
         </p>
         <!-- <p class="text-subtitle-cust-2 text-center white--text hidden-md-and-up">Data with Intermediate</p> -->
         <v-text-field
+          v-model="query"
           style="width: 80%"
           class="mx-auto white--text rounded-lg hidden-md-and-up"
           placeholder="Search"
           hide-details
+          clearable
           outlined
           flat
         >
-          <template v-slot:append>
-            <v-img :src="require('@/assets/img/icon/search.svg')"></v-img>
+          <template v-slot:prepend-inner>
+            <v-img class="mr-2" :src="require('@/assets/img/icon/search.svg')"></v-img>
           </template>
         </v-text-field>
         <!-- show on medium -->
@@ -58,6 +63,22 @@
         <!-- show on small -->
       </v-img>
     </v-card>
+
+    <!-- list a result search -->
+    <div class="box-wrapper" v-show="query.length > 0">
+      <v-card class="box-search px-4">
+        <v-card-title
+          style="border-bottom: 1px solid #e5e5e5"
+          class="d-flex flex-column align-start pointer"
+          v-for="item of items"
+          :key="item.title"
+          @click="$router.push(item.path)"
+        >
+          {{ item.title }}
+          <v-card-text class="pa-0 text-truncate">{{ item.description }}</v-card-text>
+        </v-card-title>
+      </v-card>
+    </div>
 
     <!-- show on medium -->
     <div class="hidden-sm-and-down" style="margin: -200px 0px 300px 0px">
@@ -129,9 +150,11 @@ export default {
 export default {
   data() {
     return {
+      query: '',
+      items: [],
       menus: [
         {
-          icon: require('@/assets/img/icon/rocket-blue2.svg'),
+          icon: require('@/assets/img/icon/rocket-new-blue2.svg'),
           title: 'Getting Started',
           content: 'Start your journey with InterconnectDATA',
           link: '/doc/getting-started',
@@ -157,6 +180,16 @@ export default {
       ],
     }
   },
+  watch: {
+    async query(query) {
+      if (!query) {
+        this.items = []
+        return
+      }
+
+      this.items = await this.$content('doc').sortBy('createdAt', 'asc').search(query).fetch()
+    },
+  },
 }
 </script>
 
@@ -168,8 +201,30 @@ export default {
   box-shadow: 0px 8px 60px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(24px);
 }
-
 .mx-auto .v-input__slot::before {
   border-style: none !important;
+}
+.box-search {
+  position: absolute;
+  z-index: 10;
+  top: 350px;
+  /* left: 670px; */
+  width: 30%;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.box-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 958px) {
+  .box-wrapper {
+    padding: 0px 20px;
+  }
+  .box-search {
+    top: 400px;
+    width: 90%;
+  }
 }
 </style>

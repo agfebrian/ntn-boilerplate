@@ -62,7 +62,7 @@
                   class="ml-12"
                   @click="goToLink('https://devapps.interconnectdata.com/register')"
                 >
-                  <v-img :src="require('@/assets/img/icon/rocket.svg')" contain class="mr-2" max-width="21"></v-img>
+                  <v-img :src="require('@/assets/img/icon/rocket-new.svg')" contain class="mr-2" max-width="21"></v-img>
                   Try it free</v-btn
                 >
                 <v-btn

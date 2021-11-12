@@ -19,7 +19,10 @@
             <v-col class="hidden-sm-and-down py-16" cols="12" md="2" lg="2" xl="2">
               <external-link></external-link>
             </v-col>
-            <v-col class="pa-16" cols="12" md="8" lg="8" xl="8">
+            <v-col class="pa-16 hidden-sm-and-down" cols="12" md="8" lg="8" xl="8">
+              <Nuxt />
+            </v-col>
+            <v-col class="py-16 px-8 hidden-md-and-up" cols="12" md="8" lg="8" xl="8">
               <Nuxt />
             </v-col>
           </v-row>
