@@ -39,7 +39,7 @@ As an iC-FREE user, you can also create a connection list containing the compani
 
 There are many ways you can do to understand your users, by using the iC-FREE package you can get detailed information from the 5 companies you need, get 5 company suggestions that match your interests, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/ic2.png)
+![](/img/ic1.png)
 
 ### IC-BASE
 
@@ -71,7 +71,7 @@ As an iC-BASE user, you can also create a connection list containing the compani
 
 There are many ways you can do to understand your users, by using the iC-BASE package you can get detailed information from the 25 companies you need, create 10 connection lists, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/ic1.png)
+![](/img/ic2.png)
 
 ### IC-LITE
 
