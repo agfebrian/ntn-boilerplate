@@ -44,7 +44,7 @@
                 >
                   Product
                 </p>
-                <div class="ml-9 mega-menu-wrapper" @mouseover="showMegaMenu = true" @mouseleave="showMegaMenu = false">
+                <!-- <div class="ml-9 mega-menu-wrapper" @mouseover="showMegaMenu = true" @mouseleave="showMegaMenu = false">
                   <p class="mb-0 font-weight-bold darkgrey--text pointer">Case Study</p>
                   <v-scroll-y-transition>
                     <div v-show="showMegaMenu" class="mega-menu">
@@ -110,6 +110,105 @@
                       </ul>
                     </div>
                   </v-scroll-y-transition>
+                </div> -->
+                <div class="ml-9 mega-menu-wrapper" @mouseover="showMegaMenu = true" @mouseleave="showMegaMenu = false">
+                  <p
+                    class="mb-0 font-weight-bold pointer"
+                    :class="$route.path == '/case-study' ? 'textcolor--text' : 'darkgrey--text'"
+                  >
+                    Case Study
+                  </p>
+                  <v-scroll-y-transition>
+                    <div v-show="showMegaMenu" class="mega-menu">
+                      <ul>
+                        <li
+                          class="d-flex flex-column text-truncate"
+                          @click="goToLink('https://lp.interconnectdata.com/case-study/case-a/')"
+                          @mouseover="hoverCaseA = true"
+                          @mouseleave="hoverCaseA = false"
+                        >
+                          <div class="d-flex justify-start align-center pt-1">
+                            <v-img
+                              class="mr-3 svg"
+                              max-width="30px"
+                              :src="
+                                hoverCaseA
+                                  ? require('@/assets/img/icon/startup-black.svg')
+                                  : require('@/assets/img/icon/startup.svg')
+                              "
+                            ></v-img>
+                            <p class="mt-1 mb-0 title">Startup <v-icon small>mdi-arrow-right</v-icon></p>
+                          </div>
+                          <p class="mt-1 text">Get to know your target market easily</p>
+                        </li>
+                        <v-divider></v-divider>
+                        <li
+                          class="d-flex flex-column text-truncate"
+                          @click="goToLink('https://lp.interconnectdata.com/case-study/case-b/')"
+                          @mouseover="hoverCaseB = true"
+                          @mouseleave="hoverCaseB = false"
+                        >
+                          <div class="d-flex justify-start align-center pt-1">
+                            <v-img
+                              class="mr-3"
+                              max-width="30px"
+                              :src="
+                                hoverCaseB
+                                  ? require('@/assets/img/icon/investors-black.svg')
+                                  : require('@/assets/img/icon/investors.svg')
+                              "
+                            ></v-img>
+                            <p class="mt-1 mb-0 title">Investors <v-icon small>mdi-arrow-right</v-icon></p>
+                          </div>
+                          <p class="mt-1 text">Get valid and relevant information from various prospects</p>
+                        </li>
+                        <v-divider></v-divider>
+                        <li
+                          class="d-flex flex-column text-truncate"
+                          @click="goToLink('https://lp.interconnectdata.com/case-study/case-c/')"
+                          @mouseover="hoverCaseC = true"
+                          @mouseleave="hoverCaseC = false"
+                        >
+                          <div class="d-flex justify-start align-center pt-1">
+                            <v-img
+                              class="mr-3"
+                              max-width="30px"
+                              :src="
+                                hoverCaseC
+                                  ? require('@/assets/img/icon/market-research-black.svg')
+                                  : require('@/assets/img/icon/market-research.svg')
+                              "
+                            ></v-img>
+                            <p class="mt-1 mb-0 title">Market Researcher <v-icon small>mdi-arrow-right</v-icon></p>
+                          </div>
+                          <p class="mt-1 text">Get accurate and reliable information according to your needs</p>
+                        </li>
+                        <v-divider></v-divider>
+                        <li
+                          class="d-flex flex-column text-truncate"
+                          @click="goToLink('https://lp.interconnectdata.com/case-study/case-d/')"
+                          @mouseover="hoverCaseD = true"
+                          @mouseleave="hoverCaseD = false"
+                        >
+                          <div class="d-flex justify-start align-center pt-1">
+                            <v-img
+                              class="mr-3"
+                              max-width="30px"
+                              max-height="25px"
+                              contain
+                              :src="
+                                hoverCaseD
+                                  ? require('@/assets/img/icon/professional-person-black.svg')
+                                  : require('@/assets/img/icon/professional-person.svg')
+                              "
+                            ></v-img>
+                            <p class="mt-1 mb-0 title">Professionals <v-icon small>mdi-arrow-right</v-icon></p>
+                          </div>
+                          <p class="mt-1 text">Get your best business opportunities with reliable information</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </v-scroll-y-transition>
                 </div>
                 <p
                   class="mb-0 ml-9 font-weight-bold darkgrey--text pointer"
@@ -163,6 +262,10 @@ export default {
   data() {
     return {
       showMegaMenu: false,
+      hoverCaseA: false,
+      hoverCaseB: false,
+      hoverCaseC: false,
+      hoverCaseD: false,
     }
   },
   computed: {},
