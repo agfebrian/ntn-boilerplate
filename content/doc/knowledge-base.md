@@ -1,11 +1,11 @@
 ---
 createdAt: 2021-11-10T04:15:02.434Z
-title: Knowledge Base
+title: "Knowledge Base : Discover By Packages"
 description: Learn how to use InterconnectDATA platform based on your packages
 ---
 <!--StartFragment-->
 
-Discover By Packages
+![](/img/jarak.png)
 
 Learn how to use InterconnectDATA platform based on your packages
 
@@ -39,7 +39,7 @@ As an iC-FREE user, you can also create a connection list containing the compani
 
 There are many ways you can do to understand your users, by using the iC-FREE package you can get detailed information from the 5 companies you need, get 5 company suggestions that match your interests, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/freee.png)
+![](/img/ic2.png)
 
 ### IC-BASE
 
@@ -71,7 +71,7 @@ As an iC-BASE user, you can also create a connection list containing the compani
 
 There are many ways you can do to understand your users, by using the iC-BASE package you can get detailed information from the 25 companies you need, create 10 connection lists, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/basee.png)
+![](/img/ic1.png)
 
 ### IC-LITE
 
@@ -103,7 +103,7 @@ As an iC-LITE user, you can also create a connection list containing the compani
 
 There are many ways you can do to understand your users, by using the iC-LITE package you can get detailed information from the 50 companies you need, get 50 companies suggestions, create 50 connection lists, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/lite7.png)
+![](/img/ic3.png)
 
 ### IC-PRO
 
@@ -135,7 +135,7 @@ As an iC-PRO user, you can also create a connection list containing the companie
 
 There are many ways you can do to understand your users, by using the iC-PRO package you can get detailed information from the unlimited companies you need, get unlimited companies suggestions, tracking unlimited companies, create 50 connection lists, get 40 contact person /month, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/pro5.png)
+![](/img/ic4.png)
 
 ### IC-PREMIUM
 
@@ -167,7 +167,7 @@ As an iC-PREMIUM user, you can get an unlimited connection list based on your in
 
 There are many ways you can do to understand your users, by using the iC-PREMIUM package you can get detailed information from the unlimited companies you need, get unlimited companies suggestions, tracking unlimited companies, create unlimited connection lists, get 80 contact person /month, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/pre5.png)
+![](/img/ic5.png)
 
 ### ENTERPRISE
 
@@ -193,4 +193,4 @@ As an iC-PREMIUM user, you can also list the connections of the organizations ba
 
 There are many ways you can do to understand your users, by using the ENTERPRISE package you can get detailed information from the unlimited companies you need, get unlimited companies suggestions, tracking unlimited companies, create unlimited connection lists, get 80 contact person /month, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/enterpriseee.png)
+![](/img/ic6.png)
