@@ -7,7 +7,7 @@ description: Learn how to use InterconnectDATA features
 
 Learn how to use InterconnectDATA features
 
-### A. Explore & Connect
+## A. Explore & Connect
 
 This feature will help you to get information about prospects, investors, competitors, and other information that will help your business development. This feature also provides detailed information about a company or person, you can access a lot of information from a general description of the company, website, social media, related news, funding, business model, employee background, and others. To explore and connect, you can follow the steps below.
 
@@ -81,7 +81,6 @@ As an organization, you can invite your team to use the InterconnectData platfor
 ![](https://lh4.googleusercontent.com/a9QQ4lhfAGd1i0bs-31zRfT4SWH4No-Hl0JxvvlJzpGTKrUy2GvT-FeXrkIg4x67NYCy6vd3btRtEswNCmnTNzp4LVTLUqeqASET1mYegFC7OGib9J7Vw2SpDhLATiyko9EDtJJb)
 
 2. To invites a new user to become team members, click on “Invite Users” button
-
 3. Input the email data, first name, and last name of the user who will be invited to the team. Then click on “Invite” button
 
 ![](https://lh6.googleusercontent.com/jt2CEsmXSJTCyvVx9e2biZ6M98D9l42Oy590g1_4E3VHOA5ukvXNqiPAgV4Cl_30DpnImSxy5MbtmnGYoj-W8P2GMDz_RfGqsY1IiNvYSd6wxdPQ00x1Zv6if92WQr4K5qUwdMPm)
@@ -101,13 +100,11 @@ If you already have an account and forget the password, then do the steps below 
 ![](https://lh4.googleusercontent.com/xR8sjCWxAfD-GT1ChhPenqC2ixFGXGdbGNmKt2FfW7_7Rme4DNSd_cnEYM7dK0vXbSbrOo_6IsiST0fLFABHZmjT1fqnezECFWU_fTJXLwum6AHnCRSitSvpuJBaRYyFJ7WBAzZE)
 
 2. Once you are on the login page, click “Forgot Password”
-
 3. Input your email and click on “Send” button. After that, wait a few moments and then check your Email Inbox to get a code. If the email is not in your Inbox, try to open Spam Email. 
 
 ![](https://lh4.googleusercontent.com/BQMtw7oYTOUAD4C65PL19vPkHj-p8dVH59E4W_fVyTqzejBI-TLC2ZGAV2-tb5ZpAcvdm2u3etkUDRTkmIizCWwfsccWAJEzmHZcOakkayK227KfxJXZkHB_5dkuu0UghrI00C2J)
 
 4. Open your email that you wrote before and then click on “Update Password” button
-
 5. After you are on the update password page, fill out your new password and after that click on “Reset Password” button
 
 ![](https://lh4.googleusercontent.com/bqS2_UEl7OzrtmnCfAjz-3GRMN-JkvAYtCI1fqrfM_QcRgL0HYs1dC6Zobf-xMpLArr2ybHPOm6-YrOBAJZFwFnk0WgagFzwvxdhkrtUZfIaP9VJg_VpyT0y5BbM59VHYuxeVZsE)
@@ -119,13 +116,11 @@ If you already have an account and forget the password, then do the steps below 
 ![](https://lh3.googleusercontent.com/tZlfEeWi26dwk8oS4UgQMCXHOMXqhi31PMzHTuQT5GLQt7Uo6wDc8ybkudaL_11bUkW424jV8V6SBpHsWdgvrYV3FoneEg1mb1hBDqrEHjSBJaxttlT4jkSklkDZCeeffJYmJQQZ)
 
 2. Click on display pictures icon to change your photo profile
-
 3. You can edit your personal information by click on “Edit profile” button
 
 ![](https://lh5.googleusercontent.com/rSYDMqnz1PqK47DDBJjDFR3DVEd3ikFT4Z38oOYqX3ADCoecrQQPEGrzbhsfNnShq7ieXJaQL3IHb8LlvhD7TnQhQuY2IO65-XMqa8aPE0ZP9jFPnmOSwaYJDLaIuMv--hmdGAB9)
 
 4. You can also change your password by using the reset password feature. To reset the password, click on “Edit Password” button
-
 5. To keep your personalization data always updated, you can also edit your interest that was selected when registering. This interest data will affect the list of company suggestions, recommended events and news, and others, so make sure you fill out your interest data correctly. 
 
 ![](https://lh6.googleusercontent.com/LDO5s80AxPT_6jS7o3nbSPfXjIFhlRr57yO2nutQ7IA8FCdNYp4dI7I5ZWcMzpBeHjVwbBv415sJk5u48bqDAov4tivs5eAmfSR7pUdH6hkPa_tzSAVF0JtaNv1-LquAgInP6Ikw)
@@ -137,7 +132,6 @@ If you already have an account and forget the password, then do the steps below 
 ![](https://lh5.googleusercontent.com/09CaU0Wq6L8LWHj316gZ_tKxfhIDqy4wk3c1OKFFBE6zFpoGd-PL--5I-r_UNHB0w_2ktOZwPP4BbHlcSy8V7S3UmXzle0K47YzOJbW5hqrL_iXliFFzIkD21VxMOqxpDtRyVE3E)
 
 2. You can see detail history by click on “View” button
-
 3. You can extend your subscribe package by click on “Extend” button
 
 ![](https://lh6.googleusercontent.com/4fN2NtMHcMhKP0wWQwNYojwa-eQT_np404DEsapGQYjqzRutnffvnxuE1tBt2c9xPwpptya6gVFGMhNWysUEJtp_DVKoh-ZAOUzs5YmR7w6Rwm546w0Q5yEcxme4ZtD91PlQNBdO)
