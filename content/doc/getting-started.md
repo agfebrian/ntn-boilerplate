@@ -47,7 +47,7 @@ C. Fill out register form with your data and then click on “Register” button
 
 ![](/img/regis1.png)
 
-C. After you fill out the registration form, InterconnectDATA will ask you to complete your personalization. Please follow the four steps correctly, so you can get your most appropriate personalization
+D. After you fill out the registration form, InterconnectDATA will ask you to complete your personalization. Please follow the four steps correctly, so you can get your most appropriate personalization
 
 STEP 1 : Choose your main purpose, you are only allowed to choose one purpose
 
