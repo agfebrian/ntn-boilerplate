@@ -5,7 +5,7 @@ description: Learn how to use InterconnectDATA platform based on your packages
 ---
 <!--StartFragment-->
 
-![](/img/jarak.png)
+![](/img/jarakk.png)
 
 Learn how to use InterconnectDATA platform based on your packages
 
