@@ -11,7 +11,7 @@ Learn how to use InterconnectDATA features
 
 This feature will help you to get information about prospects, investors, competitors, and other information that will help your business development. This feature also provides detailed information about a company or person, you can access a lot of information from a general description of the company, website, social media, related news, funding, business model, employee background, and others. To explore and connect, you can follow the steps below.
 
-\#1 Click on ”Explore and Connect” button
+1. Click on ”Explore and Connect” button
 
 ![](https://lh4.googleusercontent.com/smTG4CVE3PYSfDYpfzNWJEKYGZB2-QFgwXaANI0T_fA2j6Q-8tR7FWY2p25xypito2JQhAWULI_t6-scXQTyZJjtw9UXktXo2tyIvEo4Wvn9k5XtqOfhHbaWBKWiqeqO7v5deRDw)
 
