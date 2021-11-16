@@ -3,6 +3,8 @@ createdAt: 2021-11-10T00:23:50.669Z
 title: Getting Started
 description: Start your journey with InterconnectDATA
 ---
+![](/img/jarakk.png)
+
 <!--StartFragment-->
 
 Start your journey with InterconnectDATA
