@@ -193,4 +193,4 @@ As an iC-PREMIUM user, you can also list the connections of the organizations ba
 
 There are many ways you can do to understand your users, by using the ENTERPRISE package you can get detailed information from the unlimited companies you need, get unlimited companies suggestions, tracking unlimited companies, create unlimited connection lists, get 80 contact person /month, get the latest updates and bookmarks to make it easier for you to find news. Besides that there is also event information that suits your interests.
 
-![](/img/ic6.png)
+![](/img/ic-ent.png)
