@@ -15,31 +15,31 @@ This feature will help you to get information about prospects, investors, compet
 
 ![](https://lh4.googleusercontent.com/smTG4CVE3PYSfDYpfzNWJEKYGZB2-QFgwXaANI0T_fA2j6Q-8tR7FWY2p25xypito2JQhAWULI_t6-scXQTyZJjtw9UXktXo2tyIvEo4Wvn9k5XtqOfhHbaWBKWiqeqO7v5deRDw)
 
-\#2 In this section will displays the total number of existing entities
+2. In this section will displays the total number of existing entities
 
-\#3 To display the required data, choose the entity category that you want to search
+3. To display the required data, choose the entity category that you want to search
 
-\#4 You can also filter by name, sector, country, founded date, and other filters
+4. You can also filter by name, sector, country, founded date, and other filters
 
-\#5 You can also customize the appearance of the data, so that the data displayed can be in the form of a list or column
+5. You can also customize the appearance of the data, so that the data displayed can be in the form of a list or column
 
 ![](https://lh4.googleusercontent.com/I4AlZ3oN7QWO6L5Sr8iKFZ38o3XLRfh0X8Mf46C5WikiTfrvjNGWeCiWo4nHxp8LbcSpn28g9wuWwAugqzDqhbat1Sd0NHbEUR4U-85kFZSrBa5GxH3HpLL5kE89LfE9tI6rE0qm)
 
-\#6 You can also set the amount of data that you want to display on the one page
+6. You can also set the amount of data that you want to display on the one page
 
 ![](https://lh4.googleusercontent.com/nENpDQEqRV1EAAxpDm8B9mUylpXrJSI6eSj7Dtl9QAP6v79JqNG9btofjnzSQohULf6x6VN3KCs5J0xHhsX5D74G-ruDxfm8lYH9rrx7surHnbd54mxm8cWpKP1ULwJlZ3PWwGVY)
 
-\#7 You can visit their company web and social media by click on the icons
+7. You can visit their company web and social media by click on the icons
 
-\#8 If you want to get a recommendation for a similar company, click on “See More” icon. However, if you don't want to see similar companies, click on “See Less” icon
+8. If you want to get a recommendation for a similar company, click on “See More” icon. However, if you don't want to see similar companies, click on “See Less” icon
 
-\#9 To get organization information easier, you can add the company to your list by click on “Connect” button
+9. To get organization information easier, you can add the company to your list by click on “Connect” button
 
-\#10 You can also get the latest information from the company through your email by click on the "Track" button.
+10. You can also get the latest information from the company through your email by click on the "Track" button.
 
-\#11 You can also create notes about the organization and discuss with your team by click on the “Notes” button 
+11. You can also create notes about the organization and discuss with your team by click on the “Notes” button 
 
-\#12 You can also view other detailed information such as the company's financial information, employees, similar companies, and their related news
+12. You can also view other detailed information such as the company's financial information, employees, similar companies, and their related news
 
 ![](https://lh5.googleusercontent.com/hWsD7dNH8aL2pAlgqkpYzdI8XJkm2s-Bi1kj9UEn0zAwgqtjhW5Tc8YrKX9359X4Lb7JU17CiNA7TI09jRJYWBUHHmgHpjtxrCpF3g9ZoU0WcRRV9D1NTQkbPYYBNdl-RSKm6xqR)
 
@@ -47,19 +47,19 @@ This feature will help you to get information about prospects, investors, compet
 
 InterconnectData platform provides a summary of data that will help you to analyze information for your business development for now and the future. This summary will also display data visualization such as graphs that can be adjusted based on the sector that you need. To get that data summary, you can follow the steps below.
 
-\#1 To view a summary of data, select Summary by Sector menu
+1. To view a summary of data, select Summary by Sector menu
 
 ![](https://lh3.googleusercontent.com/SBvAW9T2GCmBhB9rg8irFes_WwMq-PInB10UMmkMPIERdGMR7p_rXoFRdzXXB0J6A9QF_FF8w44npDVmAYMlvSzjFtf4ZHDuMEnhhbiRgpNzY14cTKPdgvwtZPKPNdgw6UETtdLB)
 
-\#2 You will be given a summary of the data according to the news and company registration. You can also view data snapshot for a whole month or a whole year.
+2. You will be given a summary of the data according to the news and company registration. You can also view data snapshot for a whole month or a whole year.
 
 ![](https://lh5.googleusercontent.com/WBaBwHVEqMjZ47idv5Y1nucSpn5QjWE-sRawAn3P3_FDTLxWGm8PyG6xyyMY8gytkIV2nNEF0MgYyEbQYDEQzIYMfZ6iRbuE7Bh2J9vEpfh_LowWVpQz80mI0nnWpd2wKHrcz9Im)
 
-\#3 You will also see a graph of industry growth based on the sector that you choose. You can also set the graph’s display based on data for a whole month or in a whole year.
+3. You will also see a graph of industry growth based on the sector that you choose. You can also set the graph’s display based on data for a whole month or in a whole year.
 
 ![](https://lh6.googleusercontent.com/1fOHPgl0FVqBoeDJpFZ24tWNWYQlU1TZDhpaffFITZk8Hq4RJQEWsBtLZr4FklJ_kyiRD3I0BjPyjcI4G6sQULtZNU3aDU1qu5hbsQDCSoKR1DMqc9A1W_oXtqa7h-Fwe2IeZmTO)
 
-\#4 You can also see the entire list of companies based on sector that you choose
+4. You can also see the entire list of companies based on sector that you choose
 
 ![](https://lh4.googleusercontent.com/r1BWSmf1C5u4yFlHtR37JloPEYFCQYf1y7KVgAKw4HQaCYmrY5kwLQRRYxk9c0vJkI_Slqh_mdXrXOqq5anIlihmdRKbaii7R_qlD6WNO3r5HnsHFZPsP2CTiHKp42AIzIPLEeWC)
 
@@ -69,29 +69,29 @@ InterconnectData platform provides a summary of data that will help you to analy
 
 As part of a company, you can update information about your company by following the steps below.
 
-\#1 Once you are on the profile page, click “My Company” menu
+1. Once you are on the profile page, click “My Company” menu
 
 ![](https://lh5.googleusercontent.com/jMpGznyD3U_cOrlHE4bwxXVKQGXtybGLTqmS5nYw4PWmXzpqh_G1W4OFZV8Kie8-QURxrGAJR0tLQOm2zqjRJSQgHIurUEf4dA6aWX9yO7zEt-RgF7Ha-Z9bOw4pyH8VVbX5nmXD)
 
-\#2 If you want to request a verification status for the company, you can click on “Verify Your Company” button
+2. If you want to request a verification status for the company, you can click on “Verify Your Company” button
 
-\#3 If you want to update your company data, click on “Edit Company Data” button
+3. If you want to update your company data, click on “Edit Company Data” button
 
 ![](https://lh5.googleusercontent.com/KBfmhRzd_4_mlGAAQoeZmNSdeouuOKReXsU4jKaH2Q7t4ofnzXlO2As3GVdFYEgw5Hpcpy1y1ETCdSwsmoXdE2BjPEsU24kbXX8mF0O--IkP7e7tlehsEVs0q2z90GCt1CJ9FTU5)
 
-\#4 You can also add your company team, financial data, business model, add document, and add your company’s gallery
+4. You can also add your company team, financial data, business model, add document, and add your company’s gallery
 
 #### 2. How to Manage My Teams?
 
 As an organization, you can invite your team to use the InterconnectData platform. Follow the steps below to add users to your organization.
 
-\#1 Once you are on the profile page, click “Manage Team” menu
+1. Once you are on the profile page, click “Manage Team” menu
 
 ![](https://lh4.googleusercontent.com/a9QQ4lhfAGd1i0bs-31zRfT4SWH4No-Hl0JxvvlJzpGTKrUy2GvT-FeXrkIg4x67NYCy6vd3btRtEswNCmnTNzp4LVTLUqeqASET1mYegFC7OGib9J7Vw2SpDhLATiyko9EDtJJb)
 
-\#2 To invites a new user to become team members, click on “Invite Users” button
+2. To invites a new user to become team members, click on “Invite Users” button
 
-\#3 Input the email data, first name, and last name of the user who will be invited to the team. Then click on “Invite” button
+.3. Input the email data, first name, and last name of the user who will be invited to the team. Then click on “Invite” button
 
 ![](https://lh6.googleusercontent.com/jt2CEsmXSJTCyvVx9e2biZ6M98D9l42Oy590g1_4E3VHOA5ukvXNqiPAgV4Cl_30DpnImSxy5MbtmnGYoj-W8P2GMDz_RfGqsY1IiNvYSd6wxdPQ00x1Zv6if92WQr4K5qUwdMPm)
 
