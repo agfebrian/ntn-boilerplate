@@ -1,9 +1,13 @@
 ---
 createdAt: 2021-11-10T04:15:02.434Z
-title: "Knowledge Base : Discover By Packages"
+title: Knowledge Base
 description: Learn how to use InterconnectDATA platform based on your packages
 ---
 <!--StartFragment-->
+
+Discover By Packages
+
+Learn how to use InterconnectDATA platform based on your packages
 
 ### IC-FREE
 
