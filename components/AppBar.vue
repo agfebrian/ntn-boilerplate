@@ -20,13 +20,8 @@
           <v-spacer></v-spacer>
           <div class="d-flex align-center">
             <!-- show on mobile only -->
-            <v-btn icon @click="showNav">
-              <v-img
-                max-width="23"
-                contain
-                class="pointer hidden-md-and-up"
-                :src="require('@/assets/img/menu-2.svg')"
-              ></v-img>
+            <v-btn class="hidden-md-and-up" icon @click="showNav">
+              <v-img max-width="23" contain class="pointer" :src="require('@/assets/img/menu-2.svg')"></v-img>
             </v-btn>
 
             <!-- show on dekstop only -->

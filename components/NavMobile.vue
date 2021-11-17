@@ -1,13 +1,8 @@
 <template>
   <div>
-    <v-navigation-drawer
-      v-model="showNav"
-      style="position: fixed; top: 0; left: 0"
-      absolute
-      temporary
-    >
+    <v-navigation-drawer v-model="showNav" style="position: fixed; top: 80px; left: 0; z-index: 15" absolute temporary>
       <v-list dense class="lighten-1">
-        <v-list-item
+        <!-- <v-list-item
           link
           exact
           v-for="(item, a) in mainMenuItem"
@@ -16,6 +11,38 @@
         >
           <v-list-item-content>
             <v-list-item-title>{{ item.text }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item> -->
+        <v-list-item link exact :href="'//' + 'lp.interconnectdata.com/'">
+          <v-list-item-content>
+            <v-list-item-title>Home</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link exact :href="'//' + 'lp.interconnectdata.com/product'">
+          <v-list-item-content>
+            <v-list-item-title>Product</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-group :value="false" no-action color="gray">
+          <template v-slot:activator>
+            <v-list-item-title>Case Study</v-list-item-title>
+          </template>
+          <v-list-item link exact :href="'//' + 'lp.interconnectdata.com/case-study/case-a/'">
+            <v-list-item-title style="margin-left: -30px">Startup</v-list-item-title>
+          </v-list-item>
+          <v-list-item link exact :href="'//' + 'lp.interconnectdata.com/case-study/case-b/'">
+            <v-list-item-title style="margin-left: -30px">Investors</v-list-item-title>
+          </v-list-item>
+          <v-list-item link exact :href="'//' + 'lp.interconnectdata.com/case-study/case-c/'">
+            <v-list-item-title style="margin-left: -30px">Market Researcher</v-list-item-title>
+          </v-list-item>
+          <v-list-item link exact :href="'//' + 'lp.interconnectdata.com/case-study/case-d/'">
+            <v-list-item-title style="margin-left: -30px">Professionals</v-list-item-title>
+          </v-list-item>
+        </v-list-group>
+        <v-list-item link exact :href="'//' + 'lp.interconnectdata.com/about'">
+          <v-list-item-content>
+            <v-list-item-title>About</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
@@ -46,25 +73,25 @@
 
 <script>
 export default {
-  props: ["show"],
+  props: ['show'],
   data() {
     return {
       mainMenuItem: [
-        { text: "Home", to: "/" },
-        { text: "Product", to: "/product" },
-        { text: "About", to: "/about" },
+        { text: 'Home', to: '/' },
+        { text: 'Product', to: '/product' },
+        { text: 'About', to: '/about' },
       ],
-    };
+    }
   },
   computed: {
     showNav: {
       get() {
-        return this.show;
+        return this.show
       },
       set(val) {
-        this.$emit("close", val);
+        this.$emit('close', val)
       },
     },
   },
-};
+}
 </script>
