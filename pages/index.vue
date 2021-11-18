@@ -76,7 +76,7 @@
           :key="item.title"
           @click="$router.push(item.path)"
         >
-          {{ item.title }}
+          <v-card-text class="pa-0 text-h6 text-truncate">{{ item.title }}</v-card-text>
           <v-card-text class="pa-0 text-truncate">{{ item.description }}</v-card-text>
         </v-card-title>
       </v-card>
@@ -127,7 +127,9 @@
             </div>
             <div style="height: 100%" class="d-flex flex-column align-center justify-space-between">
               <p class="text-center" style="line-height: 2">{{ item.content }}</p>
-              <p class="primary--text font-weight-bold">Learn more <v-icon color="primary">mdi-menu-right</v-icon></p>
+              <p class="primary--text font-weight-bold" @click="$router.push(item.link)">
+                Learn more <v-icon color="primary">mdi-menu-right</v-icon>
+              </p>
             </div>
           </v-card>
         </v-col>
