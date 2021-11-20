@@ -21,7 +21,7 @@ InterconnectDATA offers a free membership plan with limited functionality. But w
 
 ### Where is InterconnectDATA Available?
 
-To use the InterconnectDATA platform, you can access the following link [http://apps.interconnectdata.com/](https://devapps.interconnectdata.com/login) and to help you get reliable authentic data wherever you are, InterconnectDATA for mobile is available on Android and iOS apps. 
+To use the InterconnectDATA platform, you can access the following link [http://apps.interconnectdata.com/](https://apps.interconnectdata.com/login) and to help you get reliable authentic data wherever you are, InterconnectDATA for mobile is available on Android and iOS apps. 
 
 <!--StartFragment-->
 
@@ -39,7 +39,7 @@ There are two ways that can be done to create an account in InterconnectDATA, th
 
 If you don't want to register with a Google account, you can register directly using your active email. Follow the steps below to register.
 
-A. Access [http://apps.interconnectdata.com/](https://devapps.interconnectdata.com/) and click on “Login” button
+A. Access [http://apps.interconnectdata.com/](https://apps.interconnectdata.com/) and click on “Login” button
 
 ![](https://lh5.googleusercontent.com/2VjJ7IP5SJ_D8sb3HAbbX2fPTr2wgc1c7gQ57yoWIy1MU5Ep89YEU9VlEjOwNY8-n7WtC-uGdRt8b4tbpJXZi6lXhrOVUB0RpEQTmbQBeLwdvUQ9b9IyBffd9z27ZgBi_QPxzVe2)
 

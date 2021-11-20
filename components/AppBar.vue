@@ -213,7 +213,7 @@
                 </p>
                 <p
                   class="mb-0 ml-9 font-weight-bold pointer darkgrey--text"
-                  @click="goToLink('https://devapps.interconnectdata.com/subscribe')"
+                  @click="goToLink('https://apps.interconnectdata.com/subscribe')"
                 >
                   Subscribe
                 </p>
@@ -228,7 +228,7 @@
                   color="primary"
                   dark
                   class="ml-12"
-                  @click="goToLink('https://devapps.interconnectdata.com/register')"
+                  @click="goToLink('https://apps.interconnectdata.com/register')"
                 >
                   <v-img :src="require('@/assets/img/icon/rocket-new.svg')" contain class="mr-2" max-width="21"></v-img>
                   Try it free</v-btn
@@ -239,7 +239,7 @@
                   class="ml-3"
                   style="background-color: #f6f9ff"
                   dark
-                  @click="goToLink('https://devapps.interconnectdata.com/login')"
+                  @click="goToLink('https://apps.interconnectdata.com/login')"
                 >
                   <span class="font-weight-bold">Login</span></v-btn
                 >

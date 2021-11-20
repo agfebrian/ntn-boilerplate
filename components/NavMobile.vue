@@ -46,7 +46,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item link exact :href="'//' + 'devapps.interconnectdata.com/subscribe'">
+        <v-list-item link exact :href="'//' + 'apps.interconnectdata.com/subscribe'">
           <v-list-item-content>
             <v-list-item-title>Subscribe</v-list-item-title>
           </v-list-item-content>
@@ -56,12 +56,12 @@
             <v-list-item-title>Help</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link exact :href="'//' + 'devapps.interconnectdata.com/register'">
+        <v-list-item link exact :href="'//' + 'apps.interconnectdata.com/register'">
           <v-list-item-content>
             <v-list-item-title>Try it free</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link exact :href="'//' + 'devapps.interconnectdata.com/login'">
+        <v-list-item link exact :href="'//' + 'apps.interconnectdata.com/login'">
           <v-list-item-content>
             <v-list-item-title>Login</v-list-item-title>
           </v-list-item-content>
