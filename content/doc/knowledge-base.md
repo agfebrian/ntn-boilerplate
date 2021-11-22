@@ -1,5 +1,5 @@
 ---
-createdAt: 2021-11-10T04:15:02.434Z
+createdAt: 2021-11-09T04:15:02.434Z
 title: "Knowledge Base : Discover By Packages"
 description: Learn how to use InterconnectDATA platform based on your packages
 ---
