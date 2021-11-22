@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 d-flex d-sm-none flex-column sticky">
+  <div class="mt-4 d-none d-sm-flex d-md-none flex-column sticky">
     <p class="pt-6 font-weight-black pointer" @click="toggleToc">
       Table of Contents
       <v-icon transition="scale-transition" class="icon-right" v-show="showToc == false">mdi-chevron-right</v-icon>

@@ -3,6 +3,7 @@
     <section v-if="post">
       <article>
         <external-link-mobile></external-link-mobile>
+        <external-link-middle></external-link-middle>
         <h1 class="">{{ post.title }}</h1>
         <!-- <p class="mt-1 mb-4 text-primary-600 dark:text-primary-400">{{ post.description }}</p> -->
         <nuxt-content ref="nuxtContent" :document="post" />
