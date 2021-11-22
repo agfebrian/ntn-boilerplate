@@ -1,5 +1,5 @@
 ---
-createdAt: 2021-11-15T02:16:53.719Z
+createdAt: 2021-11-10T02:16:53.719Z
 title: "Knowledge Base : Discover by Features"
 description: Learn how to use InterconnectDATA features
 ---
