@@ -23,14 +23,15 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: SITE_INFO.sitename || process.env.npm_package_name || '',
+    titleTemplate: '%s - InterconnectDATA',
+    title: 'InterconnectDATA: Explore world wide companies and pursue new opportunities',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: SITE_INFO.sitedescription || process.env.npm_package_description || ''
+        content: 'width=device-width, initial-scale=1'
       }
     ],
     link: [

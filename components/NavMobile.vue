@@ -51,7 +51,7 @@
             <v-list-item-title>Subscribe</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link exact to="/faq">
+        <v-list-item link exact to="/">
           <v-list-item-content>
             <v-list-item-title>Help</v-list-item-title>
           </v-list-item-content>
