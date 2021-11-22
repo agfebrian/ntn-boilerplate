@@ -2,6 +2,7 @@
   <main>
     <section v-if="post">
       <article>
+        <external-link-mobile></external-link-mobile>
         <h1 class="">{{ post.title }}</h1>
         <!-- <p class="mt-1 mb-4 text-primary-600 dark:text-primary-400">{{ post.description }}</p> -->
         <nuxt-content ref="nuxtContent" :document="post" />
@@ -60,11 +61,30 @@ export default {
 </script>
 
 <style scoped>
+* {
+  color: #00253d;
+}
 article p {
   line-height: 1.8;
   text-align: justify;
 }
 article img {
   width: 100%;
+}
+ul li,
+ol li {
+  font-size: 0.8525rem !important;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@media only screen and (max-width: 429px) {
+  h1 {
+    position: relative;
+    font-size: 1.7rem;
+  }
+  p:first-child img {
+    position: absolute;
+    top: 0;
+  }
 }
 </style>
