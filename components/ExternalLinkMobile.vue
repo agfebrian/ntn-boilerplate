@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-4 d-md-flex flex-column sticky" v-show="showTocMobile">
-    <p class="pt-6 font-weight-black pointer" @click="showToc">
+  <div class="mt-4 d-flex d-sm-none flex-column sticky">
+    <p class="pt-6 font-weight-black pointer" @click="toggleToc">
       Table of Contents
       <v-icon class="icon-right">mdi-chevron-right</v-icon>
     </p>
@@ -42,17 +42,14 @@ export default {
   data() {
     return {
       contentTitle: [],
-      showToc: true,
+      showToc: false,
     }
   },
   async fetch() {
     this.contentTitle = await this.$content('doc').sortBy('createdAt').fetch()
   },
   methods: {
-    showTocMobile() {
-      return window.screen.width < 430
-    },
-    showToc() {
+    toggleToc() {
       this.showToc = !this.showToc
       if (showToc) {
         document.getElementsByClassName('icon-right').style.transform = 'rotate(50deg)'
