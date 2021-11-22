@@ -51,8 +51,10 @@ export default {
   methods: {
     toggleToc() {
       this.showToc = !this.showToc
-      if (showToc) {
-        document.getElementsByClassName('icon-right').style.transform = 'rotate(50deg)'
+      if (this.showToc) {
+        document.getElementsByClassName('icon-right').style.transform = 'rotate(0.5turn)'
+      } else {
+        document.getElementsByClassName('icon-right').style.transform = 'rotate(0.5)'
       }
     },
   },
