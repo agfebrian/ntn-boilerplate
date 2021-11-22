@@ -1,5 +1,5 @@
 ---
-createdAt: 2021-11-10T00:23:50.669Z
+createdAt: 2021-11-09T00:23:50.669Z
 title: Getting Started
 description: Start your journey with InterconnectDATA
 ---
