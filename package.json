@@ -24,7 +24,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/svg": "^0.1.12",
     "@nuxtjs/vuetify": "^1.12.1",
-    "netlify-cli": "^6.7.0",
+    "netlify-cli": "^8.17.3",
     "prettier": "^2.3.2",
     "vue-content-placeholders": "^0.2.1"
   }
