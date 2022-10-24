@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@fontsource/plus-jakarta-sans": "^4.5.0",
-    "@nuxt/content": "^1.14.0",
+    "@nuxt/content": "^2.2.0",
     "vuetify": "^2.5.5",
     "nuxt": "^2.15.8"
   },
